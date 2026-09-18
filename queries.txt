@@ -1,0 +1,23 @@
+3 ?- father(ahmed, ali).
+true.
+
+4 ?- father(ali, nora).
+true.
+
+5 ?- mother(sara, khalid).
+true.
+
+6 ?- mother(nora, khalid).
+false.
+
+7 ?- sister(sara, ali).
+true.
+
+8 ?- sister(nora, omar).
+true.
+
+9 ?- brother(ali, sara).
+true.
+
+10 ?- brother(omar, nora).
+true.
